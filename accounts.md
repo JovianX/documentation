@@ -30,15 +30,15 @@ During its existence account can be involved in different event that can change 
 
 `suspended` - account have problems with payments.
 
-## Account Subscription 
+### Account Subscription 
 
 ![](.gitbook/assets/image%20%2862%29.png)
 
-#### Change account status
+### Change account status
 
 ![](.gitbook/assets/image%20%2871%29.png)
 
-## Account Users
+### Account Users
 
 Review account's users.
 
@@ -46,9 +46,15 @@ The hosted customer console allows new users to sign up to an account. To allow 
 
 ![](.gitbook/assets/image%20%2863%29.png)
 
-Account Application 
+### Account Application 
 
 ![](.gitbook/assets/image%20%2817%29.png)
 
+### Account Events 
+
+the account events tab shows an audit log of all the events occurred to an account.
+
 ![](.gitbook/assets/image%20%2819%29.png)
+
+
 
