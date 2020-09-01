@@ -34,11 +34,15 @@ During its existence account can be involved in different event that can change 
 
 ![](.gitbook/assets/image%20%2862%29.png)
 
-
+#### Change account status
 
 ![](.gitbook/assets/image%20%2871%29.png)
 
 ## Account Users
+
+Review account's users.
+
+The hosted customer console allows new users to sign up to an account. To allow new users to sign up only via a personal invitation, switch **ON** the option "**Prevent users to signup to this account without invitation**"
 
 ![](.gitbook/assets/image%20%2863%29.png)
 
