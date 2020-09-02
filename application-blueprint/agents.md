@@ -1,4 +1,4 @@
 # Agents
 
-![](../.gitbook/assets/image%20%2874%29.png)
+![](../.gitbook/assets/image%20%2876%29.png)
 
