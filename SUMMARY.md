@@ -16,7 +16,7 @@
   * [Agents](application-blueprint/agents.md)
 * [Plans](plans.md)
 * [Settings](settings/README.md)
-  * [General](settings/general.md)
+  * [Infrastructure](settings/infrastructure.md)
   * [Customer Console](settings/customer-console/README.md)
     * [Emails Blacklist](settings/customer-console/emails-blacklist.md)
   * [Email Notifications](settings/email-notifications.md)
