@@ -31,7 +31,6 @@
 * [Authentication Models](authentication.md)
 * [Integrations](creating-automation-rules/README.md)
   * [PagerDuty + JovianX Integration](creating-automation-rules/pagerduty-integration.md)
-* [Agents](agents.md)
 
 ## Kubernetes
 
