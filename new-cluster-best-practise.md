@@ -27,7 +27,7 @@ GCP doesn't charge an extra fee for regional management, but requires having wor
 
 Kubernetes manages multiple nodes in a single cluster. The cloud providers allows adding **groups of nodes** of the **same instance type**. In AWS EKS these groups are called "Node Groups", GCP GKE and Azure AKS calls them "Node Pools". 
 
-![](../.gitbook/assets/node-pool-1-.png)
+![](.gitbook/assets/node-pool-1-.png)
 
 The cloud provider allows **scaling** the node groups in and out. The scale-in and scale-out can be done **manually**, or **automatically.** Automatic sacle in and scale out is done based on the load of the nodes. The automatic scaling of node groups policy relays on [**Metrics-Server**](https://github.com/kubernetes-sigs/metrics-server) ****to be deployed in the cluster. Metrics-Server is deployed  by default in GKE, but required to be manually added to EKS.
 
@@ -41,19 +41,19 @@ You can size the cluster such that it has a singe node group, each node fits to 
 
 This is effective to guarantee resources for each account, but may lead to underutilized instances of inactive or underutilized accounts. 
 
-![](../.gitbook/assets/node-pool-3-.png)
+![](.gitbook/assets/node-pool-3-.png)
 
 #### Single Node Group, Large Nodes
 
 Another approach could be to create a single node group of large instances, each instance can run resources of multiple accounts, and scale when the resources of a node are exhausted.
 
-![](../.gitbook/assets/node-pool-5-.png)
+![](.gitbook/assets/node-pool-5-.png)
 
 #### Node Group Per Component
 
 Also, it is possible to create a node group per component, matching the size of instances of each node group to the needed resources for the component. 
 
-![](../.gitbook/assets/node-pool-7-1-.png)
+![](.gitbook/assets/node-pool-7-1-.png)
 
 {% hint style="info" %}
 **Note:** JovianX runs each account's resources in a separate Namespace. It is possible to define the placement of accounts's resources in a specific node-pool by using `nodeSelector` label. 
