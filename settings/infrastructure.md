@@ -4,8 +4,6 @@
 
 ### Kubernetes configurations
 
-
-
 ### Docker Private Registry
 
 ### Manage DNS Records
