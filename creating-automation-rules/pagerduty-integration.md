@@ -69,14 +69,14 @@ Create a new Rule
 
 3. To test the configuration click on **Test**
 
-![](../.gitbook/assets/image%20%2860%29.png)
+![](../.gitbook/assets/image-1-1-.png)
 
 A successful call to PagerDuty should result in a similar response. On the PagerDuty console a new incident should be created.  
 
 
 ![](../.gitbook/assets/image%20%2857%29.png)
 
-![](../.gitbook/assets/image%20%2812%29.png)
+![](../.gitbook/assets/image-2-1-.png)
 
 4. Click on **Save** if the test result was successful. 
 
