@@ -36,7 +36,7 @@ Follow steps below to setup the integration between JovianX and PagerDuty.
 
 ![Copy the PagerDuty Integration Key](../.gitbook/assets/image%20%289%29.png)
 
-{% embed url="https://youtu.be/w9xdo2Idbu4" caption="PagerDuty Service Creation for JovianX Integration" %}
+{% embed url="https://youtu.be/mAkuu76syOE" caption="PagerDuty Service Creation for JovianX Integration" %}
 
 ## In JovianX Platform
 
