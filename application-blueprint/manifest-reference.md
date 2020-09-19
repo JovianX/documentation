@@ -82,6 +82,18 @@
       </td>
     </tr>
     <tr>
+      <td style="text-align:left"><code>status_check:</code>
+        <br /> <code>failure_threshold:</code>
+      </td>
+      <td style="text-align:left">
+        <p><b>Description</b>: How many status error detection are accepted before
+          changing the app status to error.</p>
+        <p><b>Parent</b>: Root Type: collection</p>
+        <p><b>Default</b>: 1</p>
+        <p>Optional</p>
+      </td>
+    </tr>
+    <tr>
       <td style="text-align:left"><code>agents</code>
       </td>
       <td style="text-align:left">
