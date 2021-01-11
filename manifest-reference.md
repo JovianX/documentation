@@ -72,7 +72,7 @@ $ tar -cf <BLUEPRINT-NAME> jovianx.yaml <HELM-CHART> ...
 ```
 
 {% hint style="info" %}
-Note: Keep Helm Charts in open, untar format
+Note: The Helm Charts should be open, untar direcotry.
 {% endhint %}
 
 Example: the following directory has an application manifest `jovianx.yaml` and a Chart `my-helm-chart`
