@@ -9,7 +9,7 @@
 
 ### 1. Create and upload the application blueprint
 
-To get started creating your managed SaaS with JovianX, create your first [application blueprint](application-blueprint/). You can start by cloning the Hello SaaS World example blueprint from [GitHub](https://github.com/jovian-x/hello-world-saas-app).
+To get started creating your managed SaaS with JovianX, create your first [application blueprint](). You can start by cloning the Hello SaaS World example blueprint from [GitHub](https://github.com/jovian-x/hello-world-saas-app).
 
 ```bash
 git clone git@github.com:jovian-x/hello-world-saas-app.git

@@ -10,10 +10,7 @@
 
 * [Dashboard](dashboard.md)
 * [Accounts](accounts.md)
-* [Application](application-blueprint/README.md)
-  * [Blueprints](application-blueprint/manifest-reference.md)
-  * [Shared Components](application-blueprint/shared-components.md)
-  * [Agents](application-blueprint/agents.md)
+* [Blueprints](manifest-reference.md)
 * [Plans](plans.md)
 * [Settings](settings/README.md)
   * [Infrastructure](settings/infrastructure.md)
