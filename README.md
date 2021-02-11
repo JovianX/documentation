@@ -22,5 +22,5 @@ JovianX provides a hosted customer console that allows your customers to sign up
 2. JovianX creates the resources needed for the new account.
 3. JovianX creates a billing plan, based on user selected billing plan and options.
 
-JovianX uses an [Application Blueprint](manifest-reference.md) to create the needed cloud resources for a new account . The application Blueprint is a package \(a tar.gz file\) that contains an Application Manifest\(a file named `jovianx.yaml`\) and , defining the rescues\(Kubernetes Helm package, or other cloud managed services such as AWS DynamoDB, Cloud SQL for example\) needed for a new account creation. 
+JovianX uses an [Application Blueprint](manifest-reference.md) to create the needed cloud resources for a new account . The application Blueprint is a package \(a tar.gz file\) that contains an Application Manifest\(a file named `jovianx.yaml`\) and , defining the rescues\(Kubernetes Helm package, or other cloud managed services such as AWS DynamoDB, Cloud SQL for example\) needed for a new account creation. .
 
