@@ -2,7 +2,7 @@
 
 ### Introduction
 
-An application blueprint is a packaged tarball file \(`*.tar.gz`\) that contains the application manifest YAML file \(`jovianx.yaml`\) and Helm Charts directories that are referenceed by the application manifest. The application manifest defines the components used by the application. The components can be Helm Charts, or other cloud managed services. JovianX uses the Application Blueprint to create resources and set up services when a new account signs up. 
+An application blueprint is a packaged tarball file \(`*.tar.gz`\) that contains the application manifest YAML file \(`jovianx.yaml`\) and Helm Charts directories that are referenceed by the application manifest. The application manifest defines the components used by the application. The components can be Helm Charts, or other cloud managed services. JovianX uses the Application Blueprint to create resources and set up services when a new account signs up
 
 ### Blueprint Structure
 
