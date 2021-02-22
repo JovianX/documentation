@@ -8,7 +8,7 @@
 
 * [Dashboard](documentation/dashboard.md)
 * [Accounts](documentation/accounts.md)
-* [Blueprints](documentation/manifest-reference.md)
+* [Blueprints](documentation/jovianx-application-blueprint.md)
 * [Plans](documentation/plans.md)
 * [Settings](documentation/settings/README.md)
   * [Infrastructure](documentation/settings/infrastructure.md)

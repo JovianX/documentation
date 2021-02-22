@@ -173,7 +173,7 @@ curl -u '<ACCOUNT-API-ACCESS-KEY>:<API-SECRET>' -F 'file=@<PATH/TO/BLUEPRINT/FIL
       </td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="manifest-reference.md#components"><code>components</code></a>
+      <td style="text-align:left"><a href="jovianx-application-blueprint.md#components"><code>components</code></a>
       </td>
       <td style="text-align:left">
         <p><b>Description</b>: components section is a list of all components(Helm
