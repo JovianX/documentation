@@ -392,7 +392,7 @@ settings_descriptors:
   
 **Email Notification: Added {trial days left} and {trial days total} to all templates** - When creating email templates it is now possible to show the trial time and how many days left in the trial \(!346 \#280\)
 
-![](.gitbook/assets/image%20%2843%29%20%281%29.png)
+![](.gitbook/assets/image%20%2843%29%20%281%29%20%281%29.png)
 
 **Change trial end date for trial accounts** - You can now change the trial end date for existing trial accounts \(!352 \#292\)
 
@@ -420,7 +420,7 @@ settings_descriptors:
 
 **UX: Plans in side menu are split into separate pages for plans list and  create a new plan page** \(!361 \#313\)
 
-![](.gitbook/assets/image%20%2835%29.png)
+![](.gitbook/assets/image%20%2835%29%20%281%29.png)
 
  **UI: Login page support for smaller screens** \(!356 \#311\)
 
@@ -644,7 +644,7 @@ Support management of account's users including invitation and removal from an a
 
 \#257 **Blacklist email domains:** It is now possible to configure a list of email domain names that are not permitted to sigh-up. This can be used for blocking non-work related email address.
 
-![](.gitbook/assets/image%20%2818%29.png)
+![](.gitbook/assets/image%20%2818%29%20%281%29.png)
 
 \#256 **Application Manifest: Support `service_name` with namespaces as part of `endpoint`configuration.** This can be used for creating DNS A records with an Ingress controller IP address on new account creation.   
 Following example is now supported:

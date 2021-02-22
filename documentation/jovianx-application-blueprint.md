@@ -2,7 +2,7 @@
 
 ### Introduction
 
-An application blueprint is a packaged tarball file \(`*.tar.gz`\) that contains the application manifest YAML file \(`jovianx.yaml`\) and Helm Charts directories that are referenceed by the application manifest. The application manifest defines the components used by the application. The components can be Helm Charts, or other cloud managed services. JovianX uses the Application Blueprint to create resources and set up services when a new account signs up
+An application blueprint is a packaged tarball file \(`*.tar.gz`\) that contains the application manifest YAML file \(`jovianx.yaml`\) and Helm Charts directories that are referenceed by the application manifest. The application manifest defines the components used by the application. The components can be Helm Charts, or other cloud managed services. JovianX uses the Application Blueprint to create resources and set up services when a new account signs up.
 
 ### Blueprint Structure
 
@@ -11,11 +11,11 @@ The application blueprint contains the following:
 1. **Application Manifest** - The application manifest  is a YAML file named `jovianx.yaml`. The manifest defines all the resources needed for creation of a new SaaS account. For example Kubernetes Helm Charts, DynamoDB, CloudDNS or other cloud managed services.
 2. **Helm Charts -** The blueprint can also include the Helm Charts that are used for creation of application services.
 
-### Application Manifest\(`jovianx.yaml`\) 
+### Application Manifest\(`jovianx.yaml`\)
 
 The application manifest is a YAML file that describes the application. JovianX uses the manifest to create the needed resources and services when a new account signs-up.
 
-A basic template  of an application manifest looks as following:
+A basic template of an application manifest looks as following:
 
 {% code title="jovianx.yaml" %}
 ```yaml
@@ -59,7 +59,6 @@ settings_descriptors:
       - name: '<COMPONENT-NAME>' # Provide value to this componet 
         helm_set:
           - key: '<SET-KEY>'
-          
 ```
 {% endcode %}
 
@@ -79,10 +78,10 @@ Example: the following directory has an application manifest `jovianx.yaml` and 
 
 ```bash
 ├── my-helm-chart
-│   ├── charts
-│   ├── templates
-│   ├── Chart.yaml
-│   └── values.yaml
+│   ├── charts
+│   ├── templates
+│   ├── Chart.yaml
+│   └── values.yaml
 └── jovianx.yaml
 ```
 
@@ -136,7 +135,6 @@ curl -u '<ACCOUNT-API-ACCESS-KEY>:<API-SECRET>' -F 'file=@<PATH/TO/BLUEPRINT/FIL
           <br /><b>Type</b>: v1</p>
         <p><b>Required</b>
         </p>
-        <p></p>
       </td>
     </tr>
     <tr>
@@ -309,7 +307,7 @@ Components section is a list of all components used as part of the application, 
           <br /><b>Type</b>: string</p>
         <p><b>Example</b>: <code>helm_chart_name: /my-helm-chart/</code>
         </p>
-        <p><b>Required for </b><code>helm_chart</code> provider</p>
+        <p><b>Required for</b>  <code>helm_chart</code> provider</p>
       </td>
     </tr>
     <tr>
@@ -321,7 +319,7 @@ Components section is a list of all components used as part of the application, 
           <br /><b>Type</b>: string</p>
         <p><b>Example</b>: <code>helm_values_file: /my-helm-chart/my-values.yaml</code>
         </p>
-        <p><b>Optional for </b><code>helm_chart</code> provider</p>
+        <p><b>Optional for</b>  <code>helm_chart</code> provider</p>
       </td>
     </tr>
     <tr>
@@ -334,11 +332,11 @@ Components section is a list of all components used as part of the application, 
         <p><b>Example</b>:</p>
         <p><code>helm_set:</code>
         </p>
-        <p><code>    - key: image</code>
+        <p> <code>- key: image</code>
         </p>
-        <p><code>      value: registry.hub.docker.com/my-company/image</code>
+        <p> <code>value: registry.hub.docker.com/my-company/image</code>
         </p>
-        <p><b>Optional for </b><code>helm_chart</code> provider</p>
+        <p><b>Optional for</b>  <code>helm_chart</code> provider</p>
       </td>
     </tr>
   </tbody>
@@ -403,7 +401,7 @@ Components section is a list of all components used as part of the application, 
 | args |  |
 | env |  |
 
-## Variables 
+## Variables
 
 ### Account
 
@@ -429,6 +427,10 @@ Components section is a list of all components used as part of the application, 
 
 ```text
 {{ account://api_host }}
+```
+
+```text
+{{ account://application_version}}
 ```
 
 {% code title="example" %}
@@ -460,6 +462,4 @@ components:
 {% endcode %}
 
 ### Application
-
-
 

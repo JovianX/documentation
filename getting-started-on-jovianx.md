@@ -126,7 +126,7 @@ A plan determines the recurring period of a subscription and can determine how m
 4. On the bottom of the screen click on `Create new plan Version`
 5. Review the newly created plan in plans list 
 
-![2. Create a new billing Plan](.gitbook/assets/image%20%2828%29%20%281%29.png)
+![2. Create a new billing Plan](.gitbook/assets/image%20%2828%29%20%281%29%20%281%29.png)
 
 ![3. Configure billing plan settings ](.gitbook/assets/image%20%2859%29.png)
 
