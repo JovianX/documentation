@@ -2,7 +2,7 @@
 
 Automation allows creating automation rules, that trigger actions based on JovianX events. Once a rule is triggered it calls an action webhook, that can send information from JovianX to external cloud services. **Automation** effectively allows integration with external services such as [HubSpot](https://hubspot.com), [Slack](https://slack.com), [Jira](https://www.atlassian.com/software/jira), [Freshdesk](https://freshdesk.com/), [Pager Duty](https://pagerduty.com/) and others. 
 
-![](../.gitbook/assets/image%20%2851%29.png)
+![](../../.gitbook/assets/image%20%2851%29.png)
 
 ### Events‌
 
@@ -46,7 +46,7 @@ You can define the URL method for JovianX to trigger, following methods are supp
 
 Custom headers are supported, you can  define a custom `key: value` pairs of headers. Additionally, you can use **variables** as header `values`:
 
-![](../.gitbook/assets/image%20%2825%29.png)
+![](../../.gitbook/assets/image%20%2825%29.png)
 
 **Content:** 
 
@@ -60,11 +60,11 @@ The content section holds the Webhook request content data, you can define the c
 
 **JSON** content-type allows defining the JSON content data:
 
-![](../.gitbook/assets/image%20%286%29.png)
+![](../../.gitbook/assets/image%20%286%29.png)
 
 **MULTIPART/FORM-DATA** and **X-WWW-FORM-URLENCODED** allow setting the `key:value` data:
 
-![](../.gitbook/assets/image%20%2873%29.png)
+![](../../.gitbook/assets/image%20%2873%29.png)
 {% endtab %}
 {% endtabs %}
 
@@ -234,7 +234,7 @@ To create a new automation rule :
 1. Navigate to `Settings` &gt; `Automation` on the side-menu.
 2. Click on Create rule button on the upper left side
 
-![](../.gitbook/assets/jovianx-saas-platform-1-.gif)
+![](../../.gitbook/assets/jovianx-saas-platform-1-.gif)
 
 
 
@@ -242,7 +242,7 @@ To create a new automation rule :
 
 #### Example JovianX &gt; Slack integration:
 
-![](../.gitbook/assets/image%20%2848%29.png)
+![](../../.gitbook/assets/image%20%2848%29.png)
 
 
 

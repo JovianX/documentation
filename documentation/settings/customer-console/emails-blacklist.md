@@ -2,7 +2,7 @@
 
 **Emails Blacklist** allows setting email address patterns that are not allowed to sign-up to the service. This is useful in cases you would like to prevent certain email address or domain names from registration to the service. 
 
-![Emails Blacklist blocks hotmail.com gmail.com and .edu domain names](../../.gitbook/assets/image%20%2864%29.png)
+![Emails Blacklist blocks hotmail.com gmail.com and .edu domain names](../../../.gitbook/assets/image%20%2818%29%20%281%29.png)
 
 ### How to add a new Blacklist rule
 

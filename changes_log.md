@@ -392,7 +392,7 @@ settings_descriptors:
   
 **Email Notification: Added {trial days left} and {trial days total} to all templates** - When creating email templates it is now possible to show the trial time and how many days left in the trial \(!346 \#280\)
 
-![](.gitbook/assets/image%20%2843%29.png)
+![](.gitbook/assets/image%20%2843%29%20%281%29.png)
 
 **Change trial end date for trial accounts** - You can now change the trial end date for existing trial accounts \(!352 \#292\)
 
@@ -420,7 +420,7 @@ settings_descriptors:
 
 **UX: Plans in side menu are split into separate pages for plans list and  create a new plan page** \(!361 \#313\)
 
-![](.gitbook/assets/image%20%2823%29.png)
+![](.gitbook/assets/image%20%2835%29.png)
 
  **UI: Login page support for smaller screens** \(!356 \#311\)
 
@@ -698,7 +698,7 @@ Bug Fixes:
 
 \#224 **Kubernetes Resources Tabs**: All Kubernetes resources can be found in tabs view for improved visibility of all Kubernetes resources related to an account.
 
-![Kubernetes Resources](.gitbook/assets/image%20%2834%29.png)
+![Kubernetes Resources](.gitbook/assets/image%20%2815%29%20%281%29.png)
 
 \#222 Show correct protocol http and https for ports 80 and 443
 

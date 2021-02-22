@@ -6,32 +6,28 @@
 
 ## Product Documentation <a id="documentation"></a>
 
----
-
-* [Dashboard](dashboard.md)
-* [Accounts](accounts.md)
-* [Blueprints](manifest-reference.md)
-* [Plans](plans.md)
-* [Settings](settings/README.md)
-  * [Infrastructure](settings/infrastructure.md)
-  * [Customer Console](settings/customer-console/README.md)
-    * [Emails Blacklist](settings/customer-console/emails-blacklist.md)
-  * [Email Notifications](settings/email-notifications.md)
-  * [Automation](settings/automation.md)
-  * [Payments](settings/payments.md)
-  * [Members](settings/members.md)
+* [Dashboard](documentation/dashboard.md)
+* [Accounts](documentation/accounts.md)
+* [Blueprints](documentation/manifest-reference.md)
+* [Plans](documentation/plans.md)
+* [Settings](documentation/settings/README.md)
+  * [Infrastructure](documentation/settings/infrastructure.md)
+  * [Customer Console](documentation/settings/customer-console/README.md)
+    * [Emails Blacklist](documentation/settings/customer-console/emails-blacklist.md)
+  * [Email Notifications](documentation/settings/email-notifications.md)
+  * [Automation](documentation/settings/automation.md)
+  * [Payments](documentation/settings/payments.md)
+  * [Members](documentation/settings/members.md)
 
 ## Guides
 
----
-
-* [Authentication Models](authentication.md)
-* [Integrations](creating-automation-rules/README.md)
-  * [PagerDuty + JovianX Integration](creating-automation-rules/pagerduty-integration.md)
-* [New Cluster Considerations](new-cluster-best-practise.md)
-* [Creating AWS ELK Cluster](adding-aws-elk-cluster.md)
-* [Creating Azure AKS Cluster](creating-azure-aks-cluster.md)
-* [JovianX System Components](jovianx-kubernetes-infrastructure-stack.md)
-* [Adding Clusters to JovianX](kubernetes-multi-cluster-management.md)
-* [Untitled](untitled.md)
+* [Authentication Models](guides/authentication.md)
+* [Integrations](guides/creating-automation-rules/README.md)
+  * [PagerDuty + JovianX Integration](guides/creating-automation-rules/pagerduty-integration.md)
+* [New Cluster Considerations](guides/new-cluster-best-practise.md)
+* [Creating AWS ELK Cluster](guides/adding-aws-elk-cluster.md)
+* [Creating Azure AKS Cluster](guides/creating-azure-aks-cluster.md)
+* [JovianX System Components](guides/jovianx-kubernetes-infrastructure-stack.md)
+* [Adding Clusters to JovianX](guides/kubernetes-multi-cluster-management.md)
+* [Untitled](guides/untitled.md)
 

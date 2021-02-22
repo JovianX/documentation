@@ -34,7 +34,7 @@ Follow steps below to setup the integration between JovianX and PagerDuty.
    1. Add integration to **existing service** - Click the name of the service where you want to add the integration. Then select the Integrations tab and click **New Integration,** and copy the **Integration Key**. The Integration Key will be used to connect JovianX Platform to the PagerDuty account. 
    2. **Create new Service** -  Click on "+ New Service" button, set the name of the new service to "JovianX Platfrom", then select **Integration Type**: **Use our API directly** with **Events API v2,** configure the rest of the Pagerduty settings, and click on "**Add Service**" button at the bottom of the screen. On the next screen navigate to the **Integrations** tab, and copy the **Integration Key**. The Integration Key will be used to connect JovianX Platform to the PagerDuty account.
 
-![Copy the PagerDuty Integration Key](../.gitbook/assets/image%20%289%29.png)
+![Copy the PagerDuty Integration Key](../../.gitbook/assets/image%20%289%29.png)
 
 {% embed url="https://youtu.be/mAkuu76syOE" caption="PagerDuty Service Creation for JovianX Integration" %}
 
@@ -46,7 +46,7 @@ Create a new Rule
 
 1. On the left menu click on `Automation` and then click on `Create Rule`
 
-![](../.gitbook/assets/image%20%2836%29.png)
+![](../../.gitbook/assets/image%20%2836%29.png)
 
 2. Create a new rule with the following configuration:
 
@@ -69,14 +69,14 @@ Create a new Rule
 
 3. To test the configuration click on **Test**
 
-![](../.gitbook/assets/image-1-1-.png)
+![](../../.gitbook/assets/image-1-1-.png)
 
 A successful call to PagerDuty should result in a similar response. On the PagerDuty console a new incident should be created.  
 
 
-![](../.gitbook/assets/image%20%2857%29.png)
+![](../../.gitbook/assets/image%20%2857%29.png)
 
-![](../.gitbook/assets/image-2-1-.png)
+![](../../.gitbook/assets/image-2-1-.png)
 
 4. Click on **Save** if the test result was successful. 
 

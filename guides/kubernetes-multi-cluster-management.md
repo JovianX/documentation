@@ -2,7 +2,7 @@
 
 JovianX supports management of multiple  Kubernentes clusters, allowing to run and manage workloads on multiple cloud providers in multiple regions simultaneously. 
 
-![Kubernetes Multi-Cluster Management](.gitbook/assets/jovianx-1.12-release.png)
+![Kubernetes Multi-Cluster Management](../.gitbook/assets/jovianx-1.12-release.png)
 
 ## Kubeconfig Kubernetes Cluster Access File
 
@@ -65,7 +65,7 @@ JovianX uses Kubeconfig files to interact with a Kubernetes cluster. To upload a
 
 Once you upload a Kubeconfig file, all cluster details are visible in the main dashboard. 
 
-![](.gitbook/assets/jovianx-saas-platform.gif)
+![](../.gitbook/assets/jovianx-saas-platform.gif)
 
 {% hint style="info" %}
 **Note**: The Kubeconfig file should specify a service account with **cluster-admin** role, and should include an authentication **token,** as show in [example above.](kubernetes-multi-cluster-management.md#example-kubeconfig-file) 

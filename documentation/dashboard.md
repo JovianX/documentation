@@ -2,7 +2,7 @@
 
 The main dashboard provides **accounts** overview information for all the managed accounts, and overview of the consumed cloud **infrastructure** resources. 
 
-![JovianX Dahsboard](.gitbook/assets/screenshot-20200902011247-1200x685.png)
+![JovianX Dahsboard](../.gitbook/assets/screenshot-20200902011247-1200x685.png)
 
 ## Accounts
 

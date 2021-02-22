@@ -4,7 +4,7 @@
 
 Docker images of the application can be stored on a private docker registry, you can setup and configure JovianX to use a private docker registry. This created a 
 
-![Docker Private Registry](../.gitbook/assets/image%20%2852%29.png)
+![Docker Private Registry](../../.gitbook/assets/image%20%2852%29.png)
 
 To enable Docker Private Registry 
 
