@@ -1,5 +1,191 @@
 # Release Notes
 
+### 1.22.0-20210223
+
+New Features:
+
+* Added hooks execution to create event messages [!600](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/600)
+* Added blueprint version as blueprint variable {{ account://application\_version}} [!603](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/603)
+* Added support for Stripe and PayPal, Added customer console billing dashboard [!447](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/447)
+* Added billing pricing page [!605](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/605)
+
+Bug Fixes:
+
+* Fixed extra API calls in customer console dashboard which now loads dashboard 5X faster. [!604](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/604)
+
+### 1.21.2-20210210
+
+BugFixes:
+
+* Fixed validate end user API [!599](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/599)
+* Fixed error messages UI [!598](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/598)
+* Fixed customer console redirect to signup settings [!602](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/602)
+* Fixed external links in customer console custom menus [!601](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/601)
+
+### 1.21.1-20210209
+
+BugFixes:
+
+* Fixed start application from Vendor Console doesn't start. [!588](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/588)
+* Fixed complete signup form for end-users. [!596](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/596)
+* Fixed update first name last name rendering. [!597](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/597)
+
+### 1.21.0-20210204
+
+New Features:
+
+* Authentication based on Google Identity Platform [!570](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/570)
+* Extended endpoint information for accounts [!581](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/581)
+* Updated Octant to 0.16.3 [!584](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/584)
+* Customer custom signup information can now be used in webhooks and email templates [!587](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/587)
+* Added `?preventRedirect=true` QueryString to the customer Console to actively prevent redirection into the application [!593](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/593)
+* Account creation now uses FirtName LastName instead of FullName [!588](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/588)
+
+Bug Fixes:
+
+* Fixes new account error messages [!582](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/582)
+* Fixed email template defaults [!583](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/583)
+* Fixed customer console React.JS safly destruct objects [!585](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/585)
+* Fixed handle of long hook execution [!580](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/580)
+* Fixed end-user account creation email uses the wrong URL [!589](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/589)
+* Fixed Customer Console now redirects to entry point URL [!591](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/591)
+* Fixed UI crashes on automation "Add Header" button [!594](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/594)
+
+### 1.20.1-202110110
+
+Bug Fixes:
+
+* Fixed waiting for account creation clouds annimation [!579](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/579)
+
+### 1.20.0-202110110
+
+New Features:
+
+* Adding management for AWS EKS [!533](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/533)
+* Send custom email notification on version upgrade [!556](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/556)
+* Added ability to create Account-level notes [!568](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/568)
+* Added Application Stacks [!537](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/537)
+* Added message container splash screen clouds background [!575](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/575)
+
+Bug Fixes:
+
+* Fixed prevent upload of blueprint without semantic version [!559](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/559)
+* Fixed Email notifications now respect trial end date changes [!560](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/560)
+* Fixed Lock PyJWT to version 1.7.1 [!572](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/572)
+* Fixed button colors for vendor and customer consoles. [!574](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/574)
+* Fixed UI console errors [!576](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/576)
+* Fixed UI error handling for blueprint upload [!577](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/577)
+* Fixed flashing screen of initial load for the Kubernetes UI. [!578](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/578)
+
+Internal Changes
+
+* Handle account creation via backend task instead of API [!566](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/566)
+* Celery tasks are now executed based on priority and include expiration [!567](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/567)
+* API timeouts are now configured via environment variables [!573](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/573)
+
+### 1.19.3-20201115
+
+Fix CI
+
+### 1.19.2-20201115
+
+Bug Fixes:
+
+* Fix upload blueprint URL in UI [!561](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/561)
+
+### 1.19.1-20201111
+
+Bug Fixes:
+
+* Adding missing tests manual execution. [!558](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/558)
+
+### 1.19.0-20201110
+
+### New Features:
+
+* Tests results are shown per blueprint, it is now possible to run tests via UI. [!544](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/544)
+* Reorganize main menu. [!550](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/550)
+
+Bug Fixes:
+
+* Fixed instructions for creating a new blueprint in the Blueprints UI. [!551](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/551)
+* Fixed redundant error messages for applications in Running state. [!552](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/552)
+* Fixed member invitations automatic cleanup. [!553](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/553)
+* Fixed continuous account change to active. [!557](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/557)
+* Fixed dynamic parameters of non-existing components now show proper error messages in events. [!555](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/555)
+
+### 1.18.0-20201029
+
+New Features:
+
+* Variable Secrets that can be used in the blueprint [!517](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/517)
+* Update octant to 0.16.1 [!526](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/526)
+
+BugFix:
+
+* Fixed DNS creation [!546](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/546)
+* Fix UX on Variable Secrets
+
+### 1.17.1-20201026
+
+BugFix:
+
+* Adding helm3 home for celery
+
+### 1.17.0-20201026
+
+New Features:
+
+* Support Helm3 [!491](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/491)
+* Cluster providers automatic tagging [!539](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/539)
+* Detailed error messages in app status dispaly [!531](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/531)
+* Update UX styling [!542](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/542)
+
+Bugfix:
+
+* Fix deletion of applications with Helm3 [!541](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/541)
+* Fix React.JS Linter issues [!540](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/540)
+
+### 1.16.2-20201007
+
+Bugfix:
+
+* Fixed error await message when viewing shared components. [!535](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/535)
+
+### 1.16.1-20201005
+
+Bugfix:
+
+* Freeze celery to version 4.4.7
+
+### 1.16.0-20201001
+
+Main Themes:
+
+* Application Status Detection
+* New Hooks
+* Azure Kubernetes Service management improvements
+
+New Features:
+
+* UI: Vendor Console: Detailed application status [!520](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/520)
+* Keep track of app status after it started [!509](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/509)
+* Adding icon updates to app state details [!524](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/524)
+* Application live status detection [!525](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/525)
+* Add failure-threshold to the blueprint [!532](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/532)
+* Hooks: Add new hooks preupgrade, post\_upgrade, delete [!515](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/515)
+* Azure: Add and remove node pools [!518](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/518)
+* Azure: Adding VM Size Labels [!522](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/522)
+* Azure: cluster node pool details UI part [!530](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/530)
+* Email notifications on app error status [!513](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/513)
+
+Bug Fixes:
+
+* Resolve "Custom Menu breaks the customer console" [!519](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/519)
+* "Changing trial date should also change the accounts billing plan trial date" [!516](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/516)
+* Vendor Console &gt; Account &gt;App - shows all app objects twice!527
+* App state details view flickers with wrong  account information [!528](https://gitlab.com/jovianx/jovianx-isv-portal/-/merge_requests/528)
+
 ### 1.15.1-20200816
 
 Bug-fixes:
