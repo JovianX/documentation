@@ -4,7 +4,7 @@
 
 The **JovianX Platform** is a control plane for SaaS and cloud applications, allowing to build, and operate SaaS offerings, and fully managed cloud services.
 
-JovianX Platform provides a management console, with a rich set of services to build, run and manage a SaaS product. Including: Cloud Management, Payments and Billing, Subscription Management, Multi-Tenancy, Application Life-cycle Management, Monitoring and Logging, Hosted Signup/Login page, User Signup Designer, Authenticated application end-points and much much more.
+JovianX Platform provides a management console, with a rich set of services to build, run and manage a SaaS product. Including: application Management, Payments and Billing, Subscription Management, Multi-Tenancy, Application Life-cycle Management, Monitoring and Logging, Hosted self-serivce Signup, User Signup Designer, Authenticated application end-points and much much more.
 
 JovianX is built for companies who are looking to start a **new SaaS business**, or create a **cloud version of an existing software** product, without all the heavy investment it usually requires.
 
