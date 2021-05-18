@@ -14,13 +14,13 @@ JovianX is designed for _cloud architects,_ _SaaS business leaders,_ _DevOps_ an
 
 ## How does it work?
 
-JovianX provides a hosted customer console that allows your customers to sign up to your cloud service. When a new account \(your SaaS customer\) signs-up, JovianX creates all needed cloud resources for that account, and creates a billing subscription for a chosen billing plan and selected options.
+JovianX provides a hosted customer console that allows your customers to sign up for your cloud service. When a new account \(your SaaS customer\) signs up, JovianX creates all needed cloud resources for that account and creates a billing subscription for a chosen billing plan and selected options.
 
 ![](.gitbook/assets/jovianx-full-flow-21-.png)
 
 1. Your customer signs up.
-2. JovianX creates the resources needed for the new account.
-3. JovianX creates a billing plan, based on user selected billing plan and options.
+2. JovianX creates the resources and deploys the application needed for the new account.
+3. JovianX creates a billing plan, based on user-selected billing plan and options.
 
-JovianX uses an [Application Blueprint](documentation/jovianx-application-blueprint.md) to create the needed cloud resources for a new account . The application Blueprint is a package \(a tar.gz file\) that contains an Application Manifest\(a file named `jovianx.yaml`\) and , defining the rescues\(Kubernetes Helm package, or other cloud managed services such as AWS DynamoDB, Cloud SQL for example\) needed for a new account creation. .
+JovianX uses an [Application Blueprint](documentation/jovianx-application-blueprint.md) to create the needed cloud resources for a new account. The application Blueprint is a package \(a tar.gz file\) that contains an Application Manifest\(a file named `jovianx.yaml`\) and defining the rescues \(Kubernetes Helm package, or other cloud managed services such as AWS DynamoDB, Cloud SQL for example\) needed for new account creation.
 
