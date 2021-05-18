@@ -1,26 +1,14 @@
-# JovianX System Components
+# Kubernetes Cluster System Components
 
 ## Overview
 
 JovianX manages Kubernetes clusters 
 
-Installing Helm
+Container Logging \| Elastic + FluentD
 
-Installing Container Logging \| Elastic + FluentD
+Monitoring \|  Prometheus + Grafana 
 
-Installing Monitoring \|  Prometheus + Grafana 
-
-Installing Cluster Access Gateway \|  Ambassador + Cert-Manager
-
-## Installing Helm 
-
-### Helm Initialization
-
-```bash
-# Create A service-account for Tiller with cluster-role 
-$ kubectl  apply -f https://raw.githubusercontent.com/JovianX/kubernetes-cluster-infrastructure/master/tiller-serviceaccount.yaml
-$ helm init --service-account tiller --history-max 200
-```
+Cluster Access Gateway \|  Ambassador + Cert-Manager
 
 ## Installing Ambassador Gateway
 

@@ -21,13 +21,11 @@
 
 ## Guides
 
-* [Authentication Models](guides/authentication.md)
 * [Integrations](guides/creating-automation-rules/README.md)
   * [PagerDuty + JovianX Integration](guides/creating-automation-rules/pagerduty-integration.md)
 * [New Cluster Considerations](guides/new-cluster-best-practise.md)
 * [Creating AWS ELK Cluster](guides/adding-aws-elk-cluster.md)
 * [Creating Azure AKS Cluster](guides/creating-azure-aks-cluster.md)
-* [JovianX System Components](guides/jovianx-kubernetes-infrastructure-stack.md)
+* [Kubernetes Cluster System Components](guides/jovianx-kubernetes-infrastructure-stack.md)
 * [Adding Clusters to JovianX](guides/kubernetes-multi-cluster-management.md)
-* [Untitled](guides/untitled.md)
 
