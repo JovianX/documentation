@@ -16,7 +16,7 @@ JovianX is designed for _cloud architects,_ _SaaS business leaders,_ _DevOps_ an
 
 JovianX provides a hosted customer console that allows your customers to sign up for your cloud service. When a new account \(your SaaS customer\) signs up, JovianX creates all needed cloud resources for that account and creates a billing subscription for a chosen billing plan and selected options.
 
-![](.gitbook/assets/jovianx-full-flow-21-.png)
+![](.gitbook/assets/image%20%2818%29.png)
 
 1. Your customer signs up.
 2. JovianX creates the resources and deploys the application needed for the new account.
