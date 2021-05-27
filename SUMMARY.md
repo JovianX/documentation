@@ -1,12 +1,12 @@
 # Table of contents
 
-* [Introduction to JovianX](README.md)
+* [❤️ Introduction to JovianX](README.md)
 * [Getting Started with JovianX](getting-started-on-jovianx.md)
 * [Release Notes](changes_log.md)
 
 ## Product Documentation <a id="documentation"></a>
 
-* [❤️ Dashboard](documentation/dashboard.md)
+* [Dashboard](documentation/dashboard.md)
 * [Accounts](documentation/accounts.md)
 * [Blueprints](documentation/jovianx-application-blueprint.md)
 * [Plans](documentation/plans.md)

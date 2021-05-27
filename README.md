@@ -1,4 +1,4 @@
-# Introduction to JovianX
+# ❤️ Introduction to JovianX
 
 ## What is JovianX?
 

@@ -1,4 +1,4 @@
-# ❤️ Dashboard
+# Dashboard
 
 The main dashboard provides **accounts** overview information for all the managed accounts, and overview of the consumed cloud **infrastructure** resources. 
 
