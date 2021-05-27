@@ -6,7 +6,7 @@
 
 ## Product Documentation <a id="documentation"></a>
 
-* [Dashboard](documentation/dashboard.md)
+* [❤️ Dashboard](documentation/dashboard.md)
 * [Accounts](documentation/accounts.md)
 * [Blueprints](documentation/jovianx-application-blueprint.md)
 * [Plans](documentation/plans.md)
