@@ -1,5 +1,104 @@
 # Release Notes
 
+### 1.25.2-20210528
+
+Bug Fixes:
+
+* Fixed upgrade account bug prevents account upgrade [!660](/jovianx/jovianx-isv-portal/-/merge_requests/660)
+* Fixed retrieval of clusters list if there are no clusters [!658](/jovianx/jovianx-isv-portal/-/merge_requests/658)
+* Fixed endless email loop of email\_notification\_before\_trial\_ends [!654](/jovianx/jovianx-isv-portal/-/merge_requests/654)
+
+### 1.25.1-20210519
+
+Bug FIx:
+
+* Fixed cluster status detection issue [!656](/jovianx/jovianx-isv-portal/-/merge_requests/656)
+
+## 1.25.0-20210518
+
+New Features:
+
+* Added ability to create custom pages in the Self-Service Customer Console [!648](/jovianx/jovianx-isv-portal/-/merge_requests/648)
+* Added optional Application Control Pane to the customer console [!643](/jovianx/jovianx-isv-portal/-/merge_requests/643)
+* Added ability to set Blueprints as "Available" and not available [!633](/jovianx/jovianx-isv-portal/-/merge_requests/633)
+* Added support to make Blueprint `settings_descriptors` optional [!622](/jovianx/jovianx-isv-portal/-/merge_requests/622)
+* Added Kubernetes cluster status detection [!637](/jovianx/jovianx-isv-portal/-/merge_requests/637)
+* Added Password complexity indicator [!647](/jovianx/jovianx-isv-portal/-/merge_requests/647)
+* Added events for account approval in account events. [!634](/jovianx/jovianx-isv-portal/-/merge_requests/634)
+* Added support to the backend to use MongoDB Replicasets [!646](/jovianx/jovianx-isv-portal/-/merge_requests/646)
+* Added support to the backend to use MognoDB Connection String [!652](/jovianx/jovianx-isv-portal/-/merge_requests/652)
+
+Bug Fixes:
+
+* Fixed 'Agree to terms' is now a checkbox [!645](/jovianx/jovianx-isv-portal/-/merge_requests/645)
+* Fixed Password Reset notification [!631](/jovianx/jovianx-isv-portal/-/merge_requests/631)
+* Fixed Agent Download source URL [!642](/jovianx/jovianx-isv-portal/-/merge_requests/642)
+* Fixed Kubernetes API calls validate cluster availability [!644](/jovianx/jovianx-isv-portal/-/merge_requests/644)
+* Fixed Update time formatting [!632](/jovianx/jovianx-isv-portal/-/merge_requests/632)
+* Fixed Removed obsolete server configurations [!636](/jovianx/jovianx-isv-portal/-/merge_requests/636)
+* Fixed redundant Stripe API calls [!640](/jovianx/jovianx-isv-portal/-/merge_requests/640) [!641](/jovianx/jovianx-isv-portal/-/merge_requests/641)
+* Fixed verification for Scale-Down api calls [!635](/jovianx/jovianx-isv-portal/-/merge_requests/635)
+* Fixed Typo in `lauch_type` tag [!638](/jovianx/jovianx-isv-portal/-/merge_requests/638)
+* Fixed view of Dashboards with failed API calls [!639](/jovianx/jovianx-isv-portal/-/merge_requests/639)
+* Fixed validation to Backend for MailGun API availability [!649](/jovianx/jovianx-isv-portal/-/merge_requests/649)
+* Fixed application status check-raises error on disabled components [!653](/jovianx/jovianx-isv-portal/-/merge_requests/653)
+
+### 1.24.1-20210411
+
+Bug Fixes:
+
+* Fixed plan price is shown on the customer console when billing is disabled [!620](/jovianx/jovianx-isv-portal/-/merge_requests/620)
+* Fixed Kubernetes clusters view UX/UI [!621](/jovianx/jovianx-isv-portal/-/merge_requests/621)
+* Fixed Blueprints list separation for Accounts and Stacks [!623](/jovianx/jovianx-isv-portal/-/merge_requests/623)
+* Fixed Billing tab in account moved position [!624](/jovianx/jovianx-isv-portal/-/merge_requests/624)
+* Fixed Redirect to app on login [!628](/jovianx/jovianx-isv-portal/-/merge_requests/628)
+* Fixed Helm custom timeout settings [!625](/jovianx/jovianx-isv-portal/-/merge_requests/625)
+* Fixed \[Stacks\] Display stack details [!612](/jovianx/jovianx-isv-portal/-/merge_requests/612)
+* Fixed Start application on vendor console after account creation [!626](/jovianx/jovianx-isv-portal/-/merge_requests/626)
+* Fixed Rest password with tenant ID. [!629](/jovianx/jovianx-isv-portal/-/merge_requests/629)
+
+## 1.24.0-20210324
+
+New Features:
+
+* Added ability to enable manual account approval before launching the application of the account. !619 
+
+Bug Fixes:
+
+* Fixed Stacks upgrade process !611 
+* Fixed Subscription card is shown when the account is ACTIVE !613
+
+### 1.23.1-20210309
+
+BugFixes:
+
+* Fixed Scale down and scale up using API key !617
+* Fixed customer console label for account naming convention !616
+
+## 1.23.0-20210308
+
+New Features:
+
+* Settings screen can now become an optional step in customer console signup [!615](/jovianx/jovianx-isv-portal/-/merge_requests/615) 
+
+Bug Fixes:
+
+* Fixed dashboard PVC on empty volumes with AWS [!610](/jovianx/jovianx-isv-portal/-/merge_requests/610)
+* Fixed Endpoints don't show details on customer console and vendor console [!614](/jovianx/jovianx-isv-portal/-/merge_requests/614)
+
+### 1.22.2-20210228
+
+BugFixes: 
+
+* Fixed Paypal update subscription price
+
+### 1.22.1-20210225
+
+Bugfixes:
+
+* Fixed vendor console incorrect routing !608 
+* Fixed customer console crashes !609
+
 ### 1.22.0-20210223
 
 New Features:
