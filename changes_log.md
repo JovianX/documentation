@@ -1,5 +1,24 @@
 # Release Notes
 
+### 1.26.0-20210621
+
+New Features:
+
+* Added support for BlueSnap billing provider [!651](/jovianx/jovianx-isv-portal/-/merge_requests/651)
+* Cluster status detection and notification [!657](/jovianx/jovianx-isv-portal/-/merge_requests/657)
+* Application Stacks full hooks support [!618](/jovianx/jovianx-isv-portal/-/merge_requests/618)
+* Added force delete option for accounts when the app cluster is down [!662](/jovianx/jovianx-isv-portal/-/merge_requests/662)
+* Added hooks status and Service LB status to application status indicator [!664](/jovianx/jovianx-isv-portal/-/merge_requests/664)
+* Customer console now prevents login to suspended accounts [!669](/jovianx/jovianx-isv-portal/-/merge_requests/669)
+
+Bug Fixes
+
+* Fixed application status detection periodic task priority [!663](/jovianx/jovianx-isv-portal/-/merge_requests/663)
+* Fixed redundant information from the account creation event [!655](/jovianx/jovianx-isv-portal/-/merge_requests/655)
+* Fixed login screen react warnings [!661](/jovianx/jovianx-isv-portal/-/merge_requests/661)
+* Fixed Kubeconfig upload button spinner [!667](/jovianx/jovianx-isv-portal/-/merge_requests/667)
+* Fixed application status detection gets stuck on "Starting" on custom hook failure [!668](/jovianx/jovianx-isv-portal/-/merge_requests/668)
+
 ### 1.25.2-20210528
 
 Bug Fixes:
