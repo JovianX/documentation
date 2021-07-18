@@ -1,4 +1,4 @@
-# Release Notes
+# ✨ Release Notes
 
 ### 1.26.0-20210621
 

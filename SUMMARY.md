@@ -1,8 +1,8 @@
 # Table of contents
 
-* [❤️ Introduction to JovianX](README.md)
-* [Getting Started with JovianX](getting-started-on-jovianx.md)
-* [Release Notes](changes_log.md)
+* [⛅ Introduction to JovianX](README.md)
+* [🔰 Getting Started with JovianX](getting-started-on-jovianx.md)
+* [✨ Release Notes](changes_log.md)
 
 ## Product Documentation <a id="documentation"></a>
 

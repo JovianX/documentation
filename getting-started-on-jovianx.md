@@ -1,4 +1,4 @@
-# Getting Started with JovianX
+# 🔰 Getting Started with JovianX
 
 #### Table of Content
 
